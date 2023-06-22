@@ -44,6 +44,7 @@ print ("The approximate root using Newton-Raphson method is %.4f"%xn)
 ex 2 Gauss - Seidel method
 ~~~
 ![image](https://github.com/Selvakumar525/RANK-OF-A-MATRIX/assets/120643262/272ddae4-771c-4837-a8ed-f2b27c860613)
+~~~
 x0=0; y0=0; z0=0
 for i in range (1,10):
     x=1/4*(1-y0-z0)
@@ -58,6 +59,7 @@ print ("The approximate solution of x = %.4f, y= %.4f, z=%.4f"%(x, y,z))
 ex 3 Lagrange’s Interpolation method
 ~~~
 ![image](https://github.com/Selvakumar525/RANK-OF-A-MATRIX/assets/120643262/f205bd83-723d-4f2e-b72b-413640bcf901)
+~~~
 x= [0,1,2,4,5,6]
 y= [1,14,15,5,6,19]
 s=float (input ("Enter the value of x to be in: "))
@@ -72,7 +74,9 @@ print ("The functional value is %.4f"%sum)
 ~~~
 ~~~ python
 ex 4 trapezoidal rule
+~~~
 ![image](https://github.com/Selvakumar525/RANK-OF-A-MATRIX/assets/120643262/426d825e-ed10-434d-91ca-4453c46ef24b)
+~~~
 def f(x):
     return 1/(1+x**2)
 a=float (input ("Enter the lower limit: "))
@@ -87,7 +91,9 @@ print ("The Integral value is %.5f"%trap)
 ~~~
 ~~~ python
 ex 5  Runge-Kutta method of fourth order
+~~~
 ![image](https://github.com/Selvakumar525/RANK-OF-A-MATRIX/assets/120643262/0861a72d-aa19-436d-9b2c-d1411d1fa5b1)
+~~~
 def f (x, y):
     return x+y**2
 x0=float (input ("Enter initial point of x: "))
@@ -102,7 +108,9 @@ print ("The value of y using RK method is %.4f"%y)
 ~~~
 ~~~ python
 ex 6 Adam’s predictor and corrector method
+~~~
 ![image](https://github.com/Selvakumar525/RANK-OF-A-MATRIX/assets/120643262/704f59d5-d47e-49ba-ae09-79520d2f7ebe)
+~~~
 def f (x, y):
 return x**2*(1+y)
 x0=float (input ("Enter x0: "))
