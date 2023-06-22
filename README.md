@@ -42,6 +42,7 @@ print ("The approximate root using Newton-Raphson method is %.4f"%xn)
 ~~~
 ~~~ python
 ex 2 Gauss - Seidel method
+~~~
 ![image](https://github.com/Selvakumar525/RANK-OF-A-MATRIX/assets/120643262/272ddae4-771c-4837-a8ed-f2b27c860613)
 x0=0; y0=0; z0=0
 for i in range (1,10):
@@ -55,6 +56,7 @@ print ("The approximate solution of x = %.4f, y= %.4f, z=%.4f"%(x, y,z))
 ~~~
 ~~~ python
 ex 3 Lagrange’s Interpolation method
+~~~
 ![image](https://github.com/Selvakumar525/RANK-OF-A-MATRIX/assets/120643262/f205bd83-723d-4f2e-b72b-413640bcf901)
 x= [0,1,2,4,5,6]
 y= [1,14,15,5,6,19]
