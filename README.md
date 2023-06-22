@@ -27,6 +27,7 @@ print(b)
 ~~~ python
 ex 1 Newton - Raphson method
 ![image](https://github.com/Selvakumar525/RANK-OF-A-MATRIX/assets/120643262/587741a0-a420-4c65-8ca7-71bdf7156eac)
+~~~
 Program:
 def f(x):
     return x**3-x-2
